@@ -6,8 +6,9 @@ console.log(blogData);
 function App() {
   return (
     <div className="App">
-      You're on your own from here! Follow the deliverables; test things out in
-      the browser as you write your code; and good luck!
+      <header className="App header"><h2>Underreacted</h2></header>
+      <aside className="App aside"><h1>Aside Component</h1></aside>
+      <main className="App main"><h1>Main Component</h1></main>
     </div>
   );
 }
